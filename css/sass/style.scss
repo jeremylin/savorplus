@@ -13,14 +13,6 @@ html ,body {
 		width: 1200px;
 		margin: 0 auto;
 		overflow: hidden;
-
-		.left {
-			float: left;
-		}
-
-		.right {
-			float: right;
-		}
 	}
 
 	header {
@@ -48,6 +40,21 @@ html ,body {
 			position: relative;
 			width: 100%;
 			height: 100%;
+
+			h1, h3 {
+				-webkit-text-shadow: 1px 1px 2px #2C2C2C;
+				-moz-text-shadow: 1px 1px 2px #2C2C2C;
+				-o-text-shadow: 1px 1px 2px #2C2C2C;
+				text-shadow: 1px 1px 2px #2C2C2C;
+			}
+
+			.left {
+				float: left;
+			}
+
+			.right {
+				float: right;
+			}
 		}
 
 		.btn {
@@ -92,16 +99,8 @@ section {
 				color: #ffffff;
 			}
 
-			h1, h3 {
-				-webkit-text-shadow: 4px 4px 10px rgba(150, 150, 150, 1);
-				-moz-text-shadow: 4px 4px 10px rgba(150, 150, 150, 1);
-				-o-text-shadow: 4px 4px 10px rgba(150, 150, 150, 1);
-				text-shadow: 4px 4px 10px rgba(150, 150, 150, 1);
-			}
-
 			.btn {
-				margin-top: 50px;
-				
+				margin-top: 50px;	
 			}
 		}
 	}
@@ -125,10 +124,6 @@ section {
 
 				h3 {
 					color: #F06354;
-					-webkit-text-shadow: 4px 4px 10px rgba(150, 150, 150, 1);
-					-moz-text-shadow: 4px 4px 10px rgba(150, 150, 150, 1);
-					-o-text-shadow: 4px 4px 10px rgba(150, 150, 150, 1);
-					text-shadow: 4px 4px 10px rgba(150, 150, 150, 1);
 				}
 			}
 		}
@@ -169,6 +164,88 @@ section {
 					li {
 						line-height: 1.4em;
 					}
+				}
+			}
+		}
+	}
+
+	&.page4 {
+		.page_container {
+			background-color: #FAC700;
+
+			.mobile {
+				width: 257px;
+				height: 517px;
+				background: url(../images/phone.png) no-repeat 0 0;
+				margin-right: 50px;
+				position: relative;
+				left: 10%;
+				top: 20%;
+
+				.imgWrap {
+					width: 221px;
+					height: 395px;
+					position: absolute;
+					top: 50px;
+					left: 18px;
+					background: #ccc;
+					overflow: hidden;
+				}
+			}
+
+			.description {
+				width: 600px;
+				position: relative;
+				right: 10%;
+				top: 20%;
+
+				li {
+					margin: 50px 0;
+				}
+			}
+		}
+	}
+
+	&.page5 {
+		background: url(../images/page_5.jpg) top left no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+		.page_container {
+
+			h1 {
+				width: 100%;
+				text-align: center;
+				color: #ffffff;
+				position: absolute;
+				top: 35%;
+			}
+		}
+	}
+
+	&.page6 {
+		background: url(../images/page_6.jpg) top left no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+		.page_container {
+
+			.feature {
+				position: absolute;
+				right: 5%;
+				top: 10%;
+				width: 40%;
+
+				h1 {
+					margin: 10px 0 0;
+				}
+
+				p {
+					font-size: 1.2em;
 				}
 			}
 		}
