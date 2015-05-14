@@ -42,10 +42,10 @@ html ,body {
 			height: 100%;
 
 			h1, h3 {
-				-webkit-text-shadow: 1px 1px 2px #2C2C2C;
-				-moz-text-shadow: 1px 1px 2px #2C2C2C;
-				-o-text-shadow: 1px 1px 2px #2C2C2C;
-				text-shadow: 1px 1px 2px #2C2C2C;
+				-webkit-text-shadow: 1px 1px 2px #5E5E5E;
+				-moz-text-shadow: 1px 1px 2px #5E5E5E;
+				-o-text-shadow: 1px 1px 2px #5E5E5E;
+				text-shadow: 1px 1px 2px #5E5E5E;
 			}
 
 			.left {
@@ -113,18 +113,12 @@ section {
 		background-size: cover;
 
 		.page_container {
-			display: table;
-			text-align: center;
 
-			.product {
-				display: table-cell;
-				vertical-align: middle;
-				width: 700px;
-				height: 700px;
-
-				h3 {
-					color: #F06354;
-				}
+			h3 {
+				position: absolute;
+				top: 55%;
+				right: 12%;
+				color: #F06354;
 			}
 		}
 	}
@@ -246,6 +240,57 @@ section {
 
 				p {
 					font-size: 1.2em;
+				}
+			}
+		}
+	}
+
+	&.page7 {
+		background: url(../images/page_7.jpg) top left no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+		.page_container {
+
+			.title, .example {
+				position: relative;
+				left: 10%;
+			}
+
+			.title {
+				top: 10%;
+
+				h1 {
+					margin: 0;
+					color: #ffffff;
+				}
+
+				.subTitle {
+					font-size: 1.0em;
+					margin: 0.4em 0;
+				}
+			}
+
+			.example {
+				padding-left: 0;
+				top: 15%;
+				width: 500px;
+
+				.applications {
+					margin-bottom: 30px;
+
+					h4 {
+						margin: 0.5em 0;
+						font-size: 1.5em;
+					}
+
+					p {
+						margin: 0;
+						line-height: 1.4em;
+						color: #747474;
+					}
 				}
 			}
 		}
