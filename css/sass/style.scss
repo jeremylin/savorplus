@@ -295,6 +295,55 @@ section {
 			}
 		}
 	}
+
+	&.page8 {
+		background: url(../images/page_8.jpg) top left no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+		.page_container {
+			display: inline-table;
+
+			.mailWrap {
+				display: table-cell;
+				vertical-align: middle;
+
+				h1 {
+					text-align: center;
+					color: #F06354;
+				}
+
+				#contactForm {
+					width: 950px;
+					margin: 50px auto;
+
+					.form-group {
+						width: 100%;
+						margin-bottom: 20px;
+
+						.form-control {
+							width: 920px;
+							padding: 15px;
+							font-size: 1.4em;
+							border: none;
+							@include radius(8px);
+						}
+					}
+
+					.btnWrap {
+						text-align: center;
+						margin-top: 40px;
+
+						.btn {
+							line-height: 42px;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 

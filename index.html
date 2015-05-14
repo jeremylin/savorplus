@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>SavorPlus</title>
         <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link href="css/all.css" rel="stylesheet" type="text/css">
         <link href="css/onepage-scroll.css" rel="stylesheet" type="text/css">
@@ -129,13 +130,30 @@
                     </ul>
                 </div>
             </section>
-            <section class="page8">
+            <section id="contact" class="page8">
                 <div class="page_container middle">
-                    <div class="mediaLogos"></div>
-                    <div class="teaminfo left"></div>
-                    <div class="socialNet right"></div>
+                    <div class="mailWrap">
+                        <h1>Get SavorPlus Early Bird Ticket</h1>
+                        <form id="contactForm" name="sentMessage" novalidate="">
+                            <div class="form-group">
+                                <input class="form-control" data-validation-required-message="Please enter your name." id="name" placeholder="Your Name *" required="" type="text">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" data-validation-required-message="Please enter your email address." id="email" placeholder="Your Email *" required="" type="email">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="btnWrap">
+                                <div id="success"></div>
+                                <button type="submit" class="btn">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </section>
-        </div>            
+        </div>
+        <!-- Contact Form JavaScript -->
+        <script src="javascripts/jqBootstrapValidation.js"></script>
+        <script src="javascripts/contact_me.js"></script>          
     </body>
 </html>
