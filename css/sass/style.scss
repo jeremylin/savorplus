@@ -57,6 +57,10 @@ html ,body {
 			}
 		}
 
+		.error {
+			color: #D80000;
+		}
+
 		.btn {
 			display: inline-block;
 			width: 140px;
@@ -338,6 +342,10 @@ section {
 
 						.btn {
 							line-height: 42px;
+
+							&:focus {
+								outline: none;
+							}
 						}
 					}
 				}
