@@ -355,6 +355,10 @@ section {
 							.close {
 								background-color: transparent;
 								border: none;
+
+								&:focus {
+									outline: none;
+								}
 							}
 						}
 					}
