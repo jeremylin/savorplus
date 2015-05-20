@@ -175,13 +175,10 @@ section {
 	}
 
 	&.page4 {
-		display: table;
 		background-color: #FAC700;
 
 		.page_container {
-			width: 960px;
-			display: table-cell;
-			vertical-align: middle;
+			width: 1200px;
 
 			.mobile {
 				width: 257px;
@@ -189,10 +186,11 @@ section {
 				background: url(../images/phone.png) no-repeat center;
 				position: relative;
 				left: 12%;
+				top: 17%;
 
 				.imgWrap {
 					width: 228px;
-					height: 395px;
+					height: 407px;
 					padding: 0;
 					position: absolute;
 					top: 35px;
@@ -207,10 +205,7 @@ section {
 				position: relative;
 				padding: 0;
 				right: 12%;
-
-				li {
-					margin: 20px 0;
-				}
+				top: 28%;
 			}
 		}
 	}

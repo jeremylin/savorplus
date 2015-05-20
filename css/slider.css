@@ -65,13 +65,13 @@ Single slide style
   background-repeat: no-repeat;
 }
 .cd-hero-slider li:first-of-type {
-  background-image: url("../images/page_1.jpg");
+  background-image: url("../images/DEMO_wifi.png");
 }
 .cd-hero-slider li:nth-of-type(2) {
-  background-image: url("../images/page_2.jpg");
+  background-image: url("../images/DEMO_recipe.png");
 }
 .cd-hero-slider li:nth-of-type(3) {
-  background-image: url("../images/page_3.jpg");
+  background-image: url("../images/DEMO_ctrl.png");
 }
 .cd-hero-slider .cd-full-width,
 .cd-hero-slider .cd-half-width {
@@ -322,7 +322,7 @@ Slider navigation
 }
 
 .cd-slider-nav li.selected a {
-  color: #2c343b;
+  color: #155389;
 }
 .no-touch .cd-slider-nav li.selected a:hover {
   background-color: transparent;
@@ -354,7 +354,7 @@ Slider navigation
   background: url(../assets/cd-icon-navigation.svg) no-repeat 0 0;
 }
 .no-touch .cd-slider-nav a:hover {
-  background-color: rgba(0, 1, 1, 0.5);
+  background-color: rgba(181, 149, 24, 0.5);
 }
 .cd-slider-nav li:first-of-type a::before {
   background-position: 0 0;
