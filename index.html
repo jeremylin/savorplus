@@ -6,10 +6,11 @@
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link href="css/all.css" rel="stylesheet" type="text/css">
+        <link href="css/slider.css" rel="stylesheet" type="text/css">
         <link href="css/onepage-scroll.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-        <script type="text/javascript" src="javascripts/jquery.onepage-scroll.js"></script>
-        <script type="text/javascript" src="javascripts/show.js"></script>
+        <script src="javascripts/modernizr.js"></script> <!-- Modernizr -->
+        <script src="javascripts/jquery-2.1.1.js"></script>
+        <script src="javascripts/jquery.onepage-scroll.js"></script>
         <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -66,31 +67,37 @@
             </section>
             <section class="page4">
                 <div class="page_container middle">
-                    <div class="mobile left">
-                        <div class="imgWrap">
-                            <img src="">
-                            <img src="">
-                            <img src="">
-                        </div>
+                    <div class="mobile left cd-hero">
+                        <ul class="cd-hero-slider imgWrap">
+                            <li class="selected"></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
                     </div>
-                    <ul class="description right">
-                        <li>
-                            <h3>WiFi Controlled</h3>
-                            <p class="info">
-                                jfnjdk cnd js kcnjkdcn csd cdl. scmkd c j8ey wcd7c. hbs jbcjsh bch asbcua. 
-                            </p>
+                    <ul class="description right cd-slider-nav">
+                        <li class="selected">
+                            <a href="#0">
+                                <h3>WiFi Controlled</h3>
+                                <p class="info">
+                                    jfnjdk cnd js kcnjkdcn csd cdl. scmkd c j8ey wcd7c. hbs jbcjsh bch asbcua. 
+                                </p>
+                            </a>
                         </li>
                         <li>
-                            <h3>Variety in Recipes</h3>
-                            <p class="info">
-                                jfnjdk cnd js kcnjkdcn csd cdl. scmkd c j8ey wcd7c. hbs jbcjsh bch asbcua. 
-                            </p>
+                            <a href="#0">
+                                <h3>Variety in Recipes</h3>
+                                <p class="info">
+                                    jfnjdk cnd js kcnjkdcn csd cdl. scmkd c j8ey wcd7c. hbs jbcjsh bch asbcua. 
+                                </p>
+                            </a>
                         </li>
                         <li>
-                            <h3>Friendly Interface</h3>
-                            <p class="info">
-                                jfnjdk cnd js kcnjkdcn csd cdl. scmkd c j8ey wcd7c. hbs jbcjsh bch asbcua. 
-                            </p>
+                            <a href="#0">
+                                <h3>Friendly Interface</h3>
+                                <p class="info">
+                                    jfnjdk cnd js kcnjkdcn csd cdl. scmkd c j8ey wcd7c. hbs jbcjsh bch asbcua. 
+                                </p>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -156,6 +163,7 @@
                 </div>
             </section>
         </div>
+        <script src="javascripts/main.js"></script> <!-- Resource jQuery -->
         <!-- Contact Form JavaScript -->
         <script src="javascripts/jqBootstrapValidation.js"></script>
         <script src="javascripts/contact_me.js"></script>          

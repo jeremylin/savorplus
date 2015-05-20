@@ -28,6 +28,7 @@ html ,body {
 				color: #ffffff;
 				font-size: 1.8em;
 				line-height: 2.2em;
+				padding-left: 20px;
 			}
 		}
 	}
@@ -84,7 +85,9 @@ section {
 	z-index: 1;
 
 	&.page1 {
-		background: url(../images/page_1.jpg) top left no-repeat;
+		background: url(../images/page_1.jpg) center no-repeat;
+		width: 100%;
+		height: 100%;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -110,7 +113,9 @@ section {
 	}
 
 	&.page2 {
-		background: url(../images/page_2.jpg) top left no-repeat;
+		background: url(../images/page_2.jpg) center no-repeat;
+		width: 100%;
+		height: 100%;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -128,7 +133,9 @@ section {
 	}
 
 	&.page3 {
-		background: url(../images/page_3.jpg) top left no-repeat;
+		background: url(../images/page_3.jpg) center no-repeat;
+		width: 100%;
+		height: 100%;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -168,44 +175,50 @@ section {
 	}
 
 	&.page4 {
+		display: table;
+		background-color: #FAC700;
+
 		.page_container {
-			background-color: #FAC700;
+			width: 960px;
+			display: table-cell;
+			vertical-align: middle;
 
 			.mobile {
 				width: 257px;
 				height: 517px;
-				background: url(../images/phone.png) no-repeat 0 0;
-				margin-right: 50px;
+				background: url(../images/phone.png) no-repeat center;
 				position: relative;
-				left: 10%;
-				top: 20%;
+				left: 12%;
 
 				.imgWrap {
-					width: 221px;
+					width: 228px;
 					height: 395px;
+					padding: 0;
 					position: absolute;
-					top: 50px;
-					left: 18px;
+					top: 35px;
+					left: 15px;
 					background: #ccc;
 					overflow: hidden;
 				}
 			}
 
 			.description {
-				width: 600px;
+				width: auto;
 				position: relative;
-				right: 10%;
-				top: 20%;
+				padding: 0;
+				right: 12%;
 
 				li {
-					margin: 50px 0;
+					margin: 20px 0;
 				}
 			}
 		}
 	}
 
 	&.page5 {
-		background: url(../images/page_5.jpg) top left no-repeat;
+		background: url(../images/page_5.jpg) center no-repeat;
+		width: 100%;
+		height: 100%;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -224,7 +237,9 @@ section {
 	}
 
 	&.page6 {
-		background: url(../images/page_6.jpg) top left no-repeat;
+		background: url(../images/page_6.jpg) center no-repeat;
+		width: 100%;
+		height: 100%;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -243,14 +258,16 @@ section {
 				}
 
 				p {
-					font-size: 1.2em;
+					font-size: 1.0em;
 				}
 			}
 		}
 	}
 
 	&.page7 {
-		background: url(../images/page_7.jpg) top left no-repeat;
+		background: url(../images/page_7.jpg) center no-repeat;
+		width: 100%;
+		height: 100%;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -279,15 +296,15 @@ section {
 
 			.example {
 				padding-left: 0;
-				top: 15%;
-				width: 500px;
+				top: 12%;
+				width: 640px;
 
 				.applications {
-					margin-bottom: 30px;
+					margin-bottom: 20px;
 
 					h4 {
 						margin: 0.5em 0;
-						font-size: 1.5em;
+						font-size: 1.2em;
 					}
 
 					p {
@@ -301,7 +318,9 @@ section {
 	}
 
 	&.page8 {
-		background: url(../images/page_8.jpg) top left no-repeat;
+		background: url(../images/page_8.jpg) center no-repeat;
+		width: 100%;
+		height: 100%;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
