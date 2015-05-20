@@ -332,7 +332,7 @@ Slider navigation
   position: relative;
   font-size: 1rem;
   font-weight: 700;
-  color: #FFEFB1;
+  color: #D7D7D7;
   padding: 10px 15px;
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
@@ -354,7 +354,7 @@ Slider navigation
   background: url(../assets/cd-icon-navigation.svg) no-repeat 0 0;
 }
 .no-touch .cd-slider-nav a:hover {
-  background-color: rgba(181, 149, 24, 0.5);
+  background-color: rgba(101, 139, 153, 0.5);
 }
 .cd-slider-nav li:first-of-type a::before {
   background-position: 0 0;
