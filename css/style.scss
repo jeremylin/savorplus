@@ -1,0 +1,1136 @@
+html ,body {
+	font-family: 'Muli', Helvetica, Arial, "Microsoft Jhenghei", "微軟正黑體", sans-serif;
+	color: #AAAAAA;
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+}
+
+.header {
+	width: 96%;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+
+	.logo {
+		position: absolute;
+		top: 8px;
+		left: 0;
+		color: #EF583A;
+		font-size: 30px;
+	}
+
+	.navi {
+		position: absolute;
+		right: 0;
+		margin: 0;
+		overflow: hidden;
+
+		li {
+			float: left;
+			margin-left: 2px;
+
+			a {
+				display: block;
+				padding: 14px 20px;
+				color: #282828;
+				background-color: rgba(234, 234, 234, 0.7);
+
+				&:hover {
+					color: #FFFFFF;
+					background-color: rgba(34, 34, 34, 0.7);
+				};
+			}
+
+			.here {
+				color: #FFFFFF;
+				background-color: rgba(34, 34, 34, 0.7);				
+			}
+		}
+	}
+}
+
+.container {
+	position: relative;
+	top: -62px;
+	z-index: 1;
+	width: 100%;
+	min-width: 1200px;
+	margin-bottom: -62px;
+	background-color: #F8F8F8;
+
+	.bg {
+		position: relative;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.sloganWrap {
+		position: absolute;
+		text-align: center;
+
+		h1 {
+			font-size: 2.7em;
+			margin-bottom: 10px;
+			letter-spacing: 0.8px;
+			color: #FFDA00;
+		}
+
+		.subSlogan {
+			font-size: 22px;
+			margin: 0;
+			color: #FFFFFF;
+		}
+
+		&.sloganWifi h1 {
+			color: #FFFFFF;
+		}
+	}
+
+	.probes .sloganWifi {
+		top: 68%;
+
+		h1 {
+			color: #565656;
+		}
+	}
+
+	.cookTogether .sloganWrap {
+		left: 100px;
+		top: 20%;
+
+		h1 {
+			color: #815C4C;
+		}
+
+		.subSlogan {
+			color: #7D7D7D;
+		}
+	}
+
+	.eatTogether {
+		top: -4px;
+
+		.sloganWrap {
+			right: 100px;
+			top: 56%;			
+		}
+	}
+
+	.sloganWifi {
+		right: 300px;
+		top: 40%;
+	}
+
+	.productIntro {
+		width: 44%;
+		position: absolute;
+		top: 6%;
+		left: 28%;
+		z-index: 2;
+		text-align: center;
+
+		h1 {
+			font-size: 2.7em;
+			margin-bottom: 30px;
+			color: #FFFFFF;
+			letter-spacing: 0.8px;
+		}
+
+		p {
+			font-size: 18px;
+			margin: 0 0 10px;
+			color: #FFF8E0;
+		}
+	}
+
+	.owl-carousel img {
+		width: 100%;
+	}
+
+	.allRecipes {
+		background: url(../images/cloud.jpg) no-repeat top left;
+	}
+
+	.socialShare {
+		background: url(../images/socialShare.jpg) no-repeat top center;
+	}
+
+	.goodItem {
+		width: 340px;
+		padding: 40px 30px 60px;
+
+		h2 {
+			font-size: 30px;
+			color: #686868;
+			width: 100%;
+			text-align: center;
+			margin-bottom: 40px;
+		}
+
+		p {
+			width: 100%;
+			text-align: left;
+			font-size: 16px;
+			line-height: 28px;
+		}
+	}
+
+	.whyGood, .specWrap {
+		width: 1200px;
+		margin: 0 auto 50px;
+		overflow: hidden;
+	}
+
+	.whyGood .goodItem, .spec .specBox {
+		float: left;
+	}
+
+	.recommend {
+		width: 96%;
+		margin: 8% auto 7%;
+		padding: 0 2%;
+
+		p {
+			font-size: 20px;
+			font-style: italic;
+			text-align: center;
+			color: #794F25;
+			line-height: 36px;
+			margin-bottom: 30px;
+		}
+	}
+
+	hr {
+		width: 30%;
+	}
+
+	.spec {
+		padding: 50px 0;
+
+		.specTitle {
+			width: 100%;
+			text-align: center;
+			font-size: 36px;
+			margin-bottom: 60px;
+		}
+
+		.specBox {
+			width: 300px;
+			margin: 20px 50px;
+
+			.icon {
+				display: inline-block;
+				background: url(../images/icons_spec.png) no-repeat;
+				width: 100%;
+				height: 180px;
+
+				&.wifi {
+					background-position: 60px 0;
+				}
+
+				&.range {
+					background-position: 60px -192px;
+				}
+
+				&.temp {
+					background-position: 60px -387px;
+				}
+
+				&.output {
+					background-position: 60px -582px;
+				}
+
+				&.input {
+					background-position: 60px -780px;
+				}
+
+				&.twoProbes {
+					background-position: 60px -982px;
+				}
+			}
+
+			h4 {
+				font-size: 20px;
+				line-height: 30px;
+				letter-spacing: 1px;
+				text-align: center;
+				color: #000000;
+			}
+		}
+	}
+
+	.subFunction {
+		width: 100%;
+		height: 600px;
+		position: relative;
+		top: -4px;
+
+		.funcText {
+			position: absolute;
+			top: 140px;
+			width: 30%;
+
+			&.left {
+				left: 0;
+			}
+
+			&.right {
+				right: 0;
+			}
+
+			.introWrap {
+				width: 70%;
+				margin: 0 auto;
+				padding: 40px 20px 50px;
+
+				h2 {
+					font-size: 30px;
+					color: #686868;
+					width: 100%;
+					text-align: center;
+					margin-bottom: 40px;
+				}
+
+				p {
+					width: 100%;
+					text-align: left;
+					font-size: 16px;
+					line-height: 28px;
+				}
+			}
+		}
+
+		.funcBg {
+			position: absolute;
+			top: 0;
+			width: 70%;
+
+			&.left {
+				left: 0;
+			}
+
+			&.right {
+				right: 0;
+			}
+
+			.allRecipes, .socialShare {
+				background-size: cover;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				-ms-background-size: cover;
+				min-height: 600px;
+			}
+		}
+	}
+
+	.websiteWrap {
+		width: 1200px;
+		height: 100%;
+		margin: 0 auto;
+		padding: 100px 0 120px;
+		overflow: hidden;
+
+		li {
+			float: left;
+			width: 360px;
+			margin: 0 20px 40px;
+
+			a {
+				font-size: 0;
+				display: inline-block;
+				width: 360px;
+				height: 203px;
+				border-left: 2px solid #FF9C7E;
+			}
+
+			.anova {
+				background: url(../images/anova.jpg) no-repeat top center;
+
+				&:hover {
+					background: url(../images/anova_hover.jpg) no-repeat top center;
+				}
+			}
+
+			.tender {
+				background: url(../images/tender.jpg) no-repeat top center;
+
+				&:hover {
+					background: url(../images/tender_hover.jpg) no-repeat top center;
+				}
+			}
+
+			.codlo {
+				background: url(../images/codlo.jpg) no-repeat top center;
+
+				&:hover {
+					background: url(../images/codlo_hover.jpg) no-repeat top center;
+				}
+			}
+
+			.sousVideTools {
+				background: url(../images/sousvide_tools.jpg) no-repeat top center;
+
+				&:hover {
+					background: url(../images/sousvide_tools_hover.jpg) no-repeat top center;
+				}
+			}
+
+			.yummly {
+				background: url(../images/yummly.jpg) no-repeat top center;
+
+				&:hover {
+					background: url(../images/yummly_hover.jpg) no-repeat top center;
+				}
+			}
+
+			.chefSteps {
+				background: url(../images/chefsteps.jpg) no-repeat top center;
+
+				&:hover {
+					background: url(../images/chefsteps_hover.jpg) no-repeat top center;
+				}
+			} 
+		}
+	}
+
+	.faqWrap {
+		width: 1000px;
+		height: 100%;
+		background: #FFFFFF;
+		padding: 60px 100px;
+		margin: 80px auto;
+
+		h2 {
+			font-size: 30px;
+			color: #686868;
+			width: 100%;
+			text-align: center;
+			margin-bottom: 60px;
+		}
+
+		.faqs {
+			padding-bottom: 10px;
+
+			h4 {
+				font-size: 24px;
+				color: #686868;
+				margin: 10px 0;
+			}
+
+			p {
+				width: 100%;
+				text-align: left;
+				font-size: 16px;
+				line-height: 28px;
+			}
+
+			&:hover {
+				cursor: pointer;
+
+				h4 {
+					color: #FF9C7E;
+				}
+			}
+		}
+	}
+
+	.mail {
+		width: 100%;
+		height: 70px;
+		padding: 60px 0;
+		background-color: #444343;
+		position: relative;
+		top: -4px;
+
+		.infoWrap {
+			width: 960px;
+			margin: 0 auto;
+			position: relative;
+
+			.mailTitle {
+				position: absolute;
+				left: 0;
+				color: #C6C4C4;
+				font-size: 24px;
+				width: 18%;
+				margin: 16px 0;
+			}
+
+			#contactForm {
+				position: absolute;
+				right: 0;
+				width: 80%;
+				overflow: hidden;
+
+				.form-group, .btnWrap {
+					float: left;
+				}
+
+				.form-group {
+					width: 85%;
+
+					.mailInput {
+						padding: 18px;
+						border: none;
+						width: 93%;
+						@include radius(5px);
+						font-size: 20px;
+					}
+
+					.help-block {
+						width: 98%;
+						text-align: center;
+
+						ul {
+							padding: 0;
+							font-size: 18px;
+						}
+					}
+				}
+
+				.btnWrap {
+					width: 15%;
+					line-height: 25px;
+
+					#success {
+						position: absolute;
+						width: 500px;
+						left: 16px;
+						top: 18px;
+						font-size: 18px;
+						background-color: #fff;
+
+						.close {
+							background-color: #999;
+							border: 0;
+							margin-right: 10px;
+							@include radius(6px);
+							color: #fff;
+						}
+					}
+
+					.btn {
+						padding: 18px 30px;
+						font-size: 20px;
+						color: #FFFFFF;
+						background-color: #F98246;
+						@include radius(5px);
+						border: 0;						
+					}
+				}
+			}
+		}
+	}
+}
+
+.footer {
+	margin: 0 auto;
+	width: 96%;
+	overflow: hidden;
+
+	.allright {
+		float: left;
+		line-height: 44px;
+		color: #909090;
+	}
+
+	.socialMedia {
+		float: right;
+			
+		a {
+			display: inline-block;
+			line-height: 44px;
+			margin-right: 10px;
+			color: #909090;
+
+			&:hover {
+				color: #F98246;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1280px) {
+    /// 如果使用者之視窗寬度介於 960px ~ 1280px，將會再載入這裡的 CSS。
+    .container {
+    	min-width: 960px;
+
+		.sloganWrap {
+			h1 { font-size: 2.2em;}
+			.subSlogan { font-size: 18px;}
+		}
+
+    	.cookTogether {
+    		.sloganWrap {
+    			left: 50px;
+    		}
+    	}
+
+		.whyGood, .specWrap {
+			width: 960px;
+		}
+
+		.goodItem {
+			width: 280px;
+			padding: 60px 20px 40px;
+		}
+
+		.productIntro {
+			width: 50%;
+			top: 4%;
+			left: 25%;
+
+			h1 {
+				font-size: 2.2em;
+				margin-bottom: 22px;
+			}
+
+			p {
+				font-size: 16px;
+				margin: 0 0 6px;
+			}
+		}
+
+		.spec {
+			padding: 20px 0;
+
+			.specBox {
+				width: 220px;
+
+				.icon {
+					height: 160px;
+					background-size: 70%;
+
+					&.wifi {
+						background-position: 34px 0;
+					}
+
+					&.range {
+						background-position: 34px -164px;
+					}
+
+					&.temp {
+						background-position: 34px -331px;
+					}
+
+					&.output {
+						background-position: 34px -498px;
+					}
+
+					&.input {
+						background-position: 34px -667px;
+					}
+
+					&.twoProbes {
+						background-position: 34px -840px;
+					}					
+				}
+
+				h4 {
+					font-size: 17px;
+					line-height: 26px;
+				}
+			}
+		}
+
+		.sloganWifi { 
+			right: 10%;
+			top: 35%;
+		}
+
+		.subFunction {
+			height: 440px;
+
+			.funcText {
+				top: 40px;
+				width: 25%;
+			}
+
+			.funcBg {
+				width: 75%;
+
+				.allRecipes, .socialShare {
+					min-height: 440px;
+				}
+			}
+		}
+
+		.websiteWrap {
+			width: 900px;
+			padding: 130px 0 80px;
+
+			li {
+				width: 45.1%;
+				margin: 0 22px 40px;
+
+				a {
+					width: 100%;
+				}
+			}
+		}
+
+		.faqWrap {
+			width: 700px;
+		}
+
+		.mail {
+			padding: 28px 0;
+
+			.infoWrap {
+				top: 5px;
+			}
+		}
+    }
+}
+
+@media screen and (max-width: 959px) {
+    // 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。
+    .container {
+    	min-width: 768px;
+
+		.sloganWrap {
+			h1 { font-size: 2.0em;}
+			.subSlogan { font-size: 16px;}
+		}
+
+    	.cookTogether {
+    		.sloganWrap {
+    			left: 40px;
+    		}
+    	}
+
+		.whyGood, .specWrap {
+			width: 768px;
+		}
+
+		.goodItem {
+			width: 216px;
+		}
+
+		.productIntro {
+			h1 {
+				font-size: 2.0em;
+			}
+		}
+
+		.spec {
+			.specBox {
+				width: 156px;
+				height: 206px;
+
+				.icon {
+					height: 96px;
+					background-size: 60%;
+
+					&.wifi {
+						background-position: 32px 0;
+					}
+
+					&.range {
+						background-position: 32px -99px;
+					}
+
+					&.temp {
+						background-position: 32px -200px;
+					}
+
+					&.output {
+						background-position: 32px -300px;
+					}
+
+					&.input {
+						background-position: 32px -403px;
+					}
+
+					&.twoProbes {
+						background-position: 32px -507px;
+					}					
+				}
+
+				h4 {
+					font-size: 15px;
+					line-height: 22px;
+				}
+			}
+		}
+
+		.subFunction {
+			height: 370px;
+
+			.funcText {
+				top: 0;
+
+				.introWrap {
+					padding: 12px;
+				}
+			}
+
+			.funcBg {
+				.allRecipes, .socialShare {
+					min-height: 370px;
+				}
+			}
+		}
+
+		.websiteWrap {
+			width: 680px;
+			padding: 150px 0 100px;
+
+			li {
+				width: 44%;
+				margin: 0 20px 40px;
+			}
+		}
+
+		.faqWrap {
+			width: 600px;
+			padding: 60px;
+			margin: 60px auto;
+		}
+
+		.mail {
+			.infoWrap {
+				width: 720px;
+
+				.mailTitle {
+					font-size: 18px;
+					line-height: 30px;
+				}
+
+				#contactForm {
+					.form-group {
+						width: 81%;
+
+						.mailInput {
+							width: 89%;
+						}
+					}
+
+					.btnWrap {
+						width: 18%;
+					}
+				}
+			}
+		}
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    // 如果使用者之視窗寬度 <= 768px，將會再載入這裡的 CSS。
+    .container {
+    	min-width: 480px;
+
+		.sloganWrap {
+			h1 { font-size: 1.2em;}
+			.subSlogan { font-size: 12px;}
+		}
+
+		.recommend {
+			width: 90%;
+			padding: 0 5%;
+
+			p {
+				font-size: 16px;
+				line-height: 30px;
+			}
+		}
+
+		.whyGood, .specWrap {
+			width: 480px;
+		}
+
+		.goodItem {
+			width: 360px;
+			padding: 60px;
+		}
+
+		.productIntro {
+			top: 3%;
+
+			p {
+				display: none;
+			}
+		}
+
+		.spec {
+			.specBox {
+				width: 100%;
+				height: 100%;
+				margin: 10px auto 30px;
+
+				.icon {
+					background-size: initial;
+					height: 180px;
+
+					&.wifi {
+						background-position: 148px 0;
+					}
+
+					&.range {
+						background-position: 148px -192px;
+					}
+
+					&.temp {
+						background-position: 148px -387px;
+					}
+
+					&.output {
+						background-position: 148px -582px;
+					}
+
+					&.input {
+						background-position: 148px -780px;
+					}
+
+					&.twoProbes {
+						background-position: 148px -982px;
+					}					
+				}
+
+				h4 {
+					font-size: 18px;
+					line-height: 28px;
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		.subFunction {
+			height: 500px;
+
+			.funcText {
+				width: 100%;
+				bottom: 0;
+
+				&.left, &.right {
+					top: 300px;
+				}
+
+				.introWrap {
+					width: 84%;
+
+					h2 {
+						font-size: 22px;
+						margin-bottom: 18px;
+					}
+
+					p {
+						font-size: 14px;
+						line-height: 24px;
+					}
+				}
+			}
+
+			.funcBg {
+				width: 100%;
+
+				.allRecipes, .socialShare {
+					min-height: 300px;
+				}
+			}
+		}
+
+		.websiteWrap {
+			width: 360px;
+
+			li {
+				width: 100%;
+				margin: 0 0 40px;
+			}
+		}
+
+		.faqWrap {
+			width: 360px;
+			padding: 40px;
+		}
+
+		.mail {
+			height: 370px;
+			padding: 80px 0 0;
+
+			.infoWrap {
+				width: 85%;
+
+				.mailTitle {
+					font-size: 26px;
+					line-height: 36px;
+					width: 100%;
+				}
+
+				#contactForm {
+					top: 75px;
+					width: 100%;
+					overflow: visible;
+
+					.form-group {
+						width: 100%;
+
+						.mailInput {
+							width: 90%;
+							padding: 5%;
+						}
+					}
+
+					.btnWrap {
+						width: 100%;
+
+						#success {
+							width: 100%;
+							left: 0;
+							top: 160px;
+							background-color: #444343;
+						}
+
+						.btn {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+    }     
+}
+
+@media screen and (max-device-width: 480px) {
+    // 如果使用者之裝置寬度 <= 480px，將會再載入這裡的 CSS。
+    .header {
+    	.logo {
+    		width: 100%;
+    		text-align: center;
+    	}
+
+    	.navi {
+    		width: 100%;
+    		top: 62px;
+    		left: 0;
+    		padding: 0;
+
+    		li {
+    			width: 32%;
+    			text-align: center;
+    		}
+    	}
+    }
+
+    .container {
+    	min-width: 320px;
+    	top: 72px;
+    	margin-bottom: 72px;
+
+    	.cookTogether, .eatTogether {
+    		padding: 0 0 20%;
+    		background-color: #D6D6D6;
+
+    		.sloganWrap {
+	    		width: 80%;
+	    		top: 75%;
+	    		left: 10%;
+    		}
+    	}
+
+		.sloganWrap {
+			h1 {
+				color: #815C4C;
+			}
+
+			.subSlogan {
+				display: none;
+			}
+
+			&.sloganWifi h1 {
+				color: #707070;
+			}
+		}
+
+		.whyGood, .specWrap {
+			width: 320px;
+			margin: 0 auto;
+		}
+
+		.goodItem {
+			width: 280px;
+			padding: 20px;
+		}
+
+		.productIntro {
+			top: 1.7%;
+
+			h1 {
+				font-size: 1.2em;
+			}
+		}
+
+		.probes, .wifiCtrl {
+			padding-bottom: 20%; 
+		}
+
+		.sloganWifi {
+			width: 80%;
+			top: 70%;
+		}
+
+		.spec {
+			background-color: #E4E4E3;
+
+			.specBox .icon {
+				&.wifi {
+					background-position: 70px 0;
+				}
+
+				&.range {
+					background-position: 70px -192px;
+				}
+
+				&.temp {
+					background-position: 70px -387px;
+				}
+
+				&.output {
+					background-position: 70px -582px;
+				}
+
+				&.input {
+					background-position: 70px -780px;
+				}
+
+				&.twoProbes {
+					background-position: 70px -982px;
+				}					
+			}
+		}
+
+		.subFunction {
+			height: 370px;
+
+			.funcText.left, .funcText.right {
+				top: 170px;
+			}
+
+			.funcBg .allRecipes, .funcBg .socialShare {
+				min-height: 180px;
+			}
+		}
+
+		.websiteWrap {
+			width: 280px;
+			padding: 30px 0 50px;
+		}
+
+		.faqWrap {
+			width: 260px;
+			padding: 30px;
+		}
+    }
+
+    .footer {
+    	.allright, .socialMedia {
+    		text-align: center;
+    		width: 100%;
+    	}
+    }
+}
